@@ -17,6 +17,12 @@ body {
 #topContainer{
     display: flex;
     flex-direction: row;
+    height:25vh;
+    width:100vw;
+}
+#expContainer{
+    display: flex;
+    flex-direction: row;
     height:5vh;
     width:100vw;
 }
@@ -26,7 +32,7 @@ body {
     background-color: white;
     color: black;
 }
-#CentContainer{
+#centContainer{
     display: flex;
     flex-direction: row;
     height:90vh;
@@ -38,4 +44,33 @@ body {
     width: 15vw;
     height: 90vh;
     background-color: #2d3054;
+    color:white;
+}
+#centroMeio{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 90vh;
+    background-color: white;
+}
+#centroDta{
+    display: flex;
+    flex-direction: column;
+    width: 2vw;
+    height: 30vh;
+    background-color: #2d3054;
+    color:white
+}
+
+/* FOOTER */
+.foot{
+    background-color: #2d3054;
+    color: white;
+}
+
+#footContainer{
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    width:100vw;
 }
