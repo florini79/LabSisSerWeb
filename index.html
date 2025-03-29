@@ -11,26 +11,94 @@
     <link rel="stylesheet" href="./index.css" />
     <!-- JQUERY -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- FONTAWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!-- MENU TOPO -->
     <div id="topContainer" class="top">
-      <div id="logo" class="top">
-        <img src="./imgs/florinidesigns3.png" alt="Logo" />
-      </div>
+      <img
+        id="logo"
+        src="./imgs/florinidesigns3.png"
+        alt="Logo"
+        onmouseenter="centrodtaentra();"
+      />
+      />
     </div>
     <!-- EXPANSIVEL -->
-    <div id="expContainer" class="top"></div>
+    <div id="expContainer" class="top">
+      <div id="expEsq" class="top"></div>
+      <div
+        id="expMeio"
+        class="top"
+        onmouseenter="menutopoentra();"
+        onmouseleave="menutoposai();"
+      >
+        <div id="expMeioCima">
+          <ul>
+            <li>Pesquisar alojamentos Web</li>
+            <li>Comparar tendo em conta o que pretende fazer</li>
+            <li>Testar e alojar páginas e outros conteúdos</li>
+            <li>Divulgar aqui o site</li>
+          </ul>
+        </div>
+        <div id="expMeioBaixo">
+          <span>Desafio: o meu Website 🌐 online! 😲</span>
+        </div>
+      </div>
+      <div id="expDta" class="top"></div>
+    </div>
     <!-- CENTRO -->
     <div id="centContainer" class="cen">
       <!-- ESQ -->
-      <div id="centroEsq" class="cen"></div>
+      <div
+        id="centroEsq"
+        class="cen"
+        onmouseenter="menucentroesqentra();"
+        onmouseleave="menucentroesqsai();"
+      >
+        <div>
+          <img id="logouab" src="./imgs/Uab.png" alt="Logo" />
+        </div>
+        <div id="menu">
+          <div class="menulateral">
+            <i class="fa-solid fa-house fa-xl iconmenu"></i>
+            <span id="spanmenu1" class="spanmenu">HOME</span>
+          </div>
+          <div class="menulateral">
+            <i class="fa-solid fa-user fa-xl iconmenu"></i>
+            <span id="spanmenu1" class="spanmenu">ALUNO</span>
+          </div>
+          <div class="menulateral">
+            <i class="fa-solid fa-calendar fa-xl iconmenu"></i>
+            <span id="spanmenu1" class="spanmenu">UAB</span>
+          </div>
+        </div>
+      </div>
       <!-- MEIO -->
-      <div id="centroMeio" class="cen"></div>
+      <div id="centroMeio" class="cen">
+        <div id="home"></div>
+        <div id="aluno"></div>
+        <div id="uab"></div>
+      </div>
       <!-- DTA -->
-      <div id="centroDta" class="cen"></div>
+      <div id="centroDta" class="cen" onclick="centrodtasai();">
+        <span
+          >Esta Página faz parte de uma demo criada para a UC de Laboratório de
+          Sistemas e Serviços Web</span
+        >
+      </div>
     </div>
     <!-- FOOTER -->
-    <div id="footContainer" class="foot"></div>
+    <div id="footContainer" class="foot">
+      <div id="footEsq" class="foot"></div>
+      <div id="footDta" class="foot">Copyrights@FloriniDesigns2025</div>
+    </div>
   </body>
 </html>
