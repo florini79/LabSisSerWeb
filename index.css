@@ -1,1 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* TOP */
+
+.top{
+    background-color: #2d3054;
+    color: white;
+}
+
+#topContainer{
+    display: flex;
+    flex-direction: row;
+    height:5vh;
+    width:100vw;
+}
+
+/* CENTRO */
+.cen{
+    background-color: white;
+    color: black;
+}
+#CentContainer{
+    display: flex;
+    flex-direction: row;
+    height:90vh;
+    width:100vw;
+}
+#centroEsq{
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    height: 90vh;
+    background-color: #2d3054;
+}
