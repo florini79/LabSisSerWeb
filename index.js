@@ -1,4 +1,3 @@
-
 // METODOS MOVIMENTO
 
 function centrodtaentra() {
