@@ -129,17 +129,32 @@ body {
   display: flex;
   flex-direction: column;
   width: 95vw;
-  height: 88vh;
-  background-color: lightgrey;
-  margin: 1vh;
-
+  height: 84vh;
+  background-color: rgb(231, 236, 236);
+  margin: 2vh;
   z-index: 1;
+}
+#home {
+  display: flex;
+  flex-direction: column;
+  width: 91vw;
+  height: 84vh;
+  background-color: rgb(231, 236, 236);
+  margin: 2vh;
+  font-size: 1em;
+}
+#LEIlogo {
+  display: none;
+}
+#aluno {
+}
+#uab {
 }
 #centroDta {
   display: flex;
   flex-direction: column;
   width: 0vw;
-  height: 80vh;
+  height: 50vh;
   background-color: #2d3054;
   color: white;
   border-radius: 10px 0px 0px 10px;
@@ -148,14 +163,14 @@ body {
   top: 12vh;
   z-index: 2;
   transition: ease-in-out 0.5s;
+  align-items: center;
+  justify-content: center;
 }
-
 /* FOOTER */
 .foot {
   background-color: #2d3054;
   color: white;
 }
-
 #footContainer {
   display: flex;
   flex-direction: row;
@@ -164,20 +179,12 @@ body {
   bottom: 0;
   position: fixed;
 }
-
 #footEsq {
   width: 70vw;
 }
-
 #footDta {
   width: 30vw;
   align-self: center;
   text-align: right;
   margin-right: 5vw;
-}
-#home {
-}
-#aluno {
-}
-#uab {
 }

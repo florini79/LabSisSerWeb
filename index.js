@@ -3,10 +3,12 @@
 function centrodtaentra() {
     let cde = document.getElementById("centroDta")
     cde.style.width = "20vw";
+    document.getElementById("LEIlogo").style.display = "flex";
 }
 function centrodtasai() {
     let cds = document.getElementById("centroDta")
     cds.style.width = "0vw";
+    document.getElementById("LEIlogo").style.display = "none";
 }
 function menutopoentra() {
     let mte = document.getElementById("expMeio")
